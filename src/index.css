@@ -1,3 +1,59 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.id-hijo{
+    background-color: white;
+}
+
+.id-padre{
+    display: flex;
+    margin: 40px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.id-hijo2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#btn{
+    background-color: #FFE7B0;
+}
+
+#btn:hover{
+    background-color: gold;
+}
+
+.id-padre:hover{
+    -webkit-box-shadow: 2px 2px 27px 0px rgba(109,87,217,1);
+    -moz-box-shadow: 2px 2px 27px 0px rgba(109,87,217,1);
+    box-shadow: 2px 2px 27px 0px rgba(109,87,217,1);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    background-color: #FFFDE0;
+}
+
+.pe{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.two{
+    background-image: url('https://img.freepik.com/vector-premium/lindo-pequeno-aguacate-patrones-fisuras-fondo-fruta-patron-fondo_565280-151.jpg');
+}
